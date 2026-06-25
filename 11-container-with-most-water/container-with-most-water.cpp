@@ -8,10 +8,7 @@ public:
         if (size > prevsize ){
             prevsize=size;
         }
-        if (*beg<*end){
-            beg++;
-        }
-       else if (*beg>*end){
+        if (*beg>*end){
             end--;
         }
         else {
